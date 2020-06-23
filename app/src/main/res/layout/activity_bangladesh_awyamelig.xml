@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/awmelig_background"
+    tools:context=".BangladeshAwyamelig">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <Button
+            android:id="@+id/backId"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:background="@drawable/backb"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_below="@+id/tool"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp">
+
+        <LinearLayout
+            android:id="@+id/btnid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/awyameligItihasBtnId"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:background="@drawable/awyamelig_itihas"
+                android:transitionName="@string/awyamelig_itihas_img_name"/>
+
+            <ImageView
+                android:id="@+id/awyameligJuddheObodanBtnId"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/awyamelig_juddhe_obodan"
+                android:transitionName="@string/awyamelig_juddheobodan_img_name"/>
+
+
+            <ImageView
+                android:id="@+id/awyameligGonotontraObodanBtnId"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/awyamelig_gonotontre_obodan"
+                android:transitionName="@string/awyamelig_gonotronteobodan_img_name"/>
+
+            <ImageView
+                android:id="@+id/awyameligGhoshonaBtnId"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/awyamelig_ghosona"
+                android:transitionName="@string/awyamelig_gothontontro_img_name"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

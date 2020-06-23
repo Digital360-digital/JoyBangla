@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/sheikh_mujib_w"
+    tools:context=".MujibVashonList">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <Button
+            android:id="@+id/backId"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:background="@drawable/backb"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+            <Button
+                android:id="@+id/vashion_mach7"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_background"
+                android:text="৭ই মার্চ ভাষণ"
+                android:onClick="march7"
+                android:layout_marginBottom="10dp"
+                android:textColor="#ffffff"
+                />
+            <Button
+                android:id="@+id/vashion_jatisonghoe"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_background"
+                android:text="জাতিসংঘ সাধারণ পরিষদে বঙ্গবন্ধুর ভাষণ"
+                android:onClick="march7"
+                android:layout_marginBottom="10dp"
+                android:textColor="#ffffff"
+                />
+            <Button
+                android:id="@+id/vashion_londonNewsRepoter"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_background"
+                android:text="লন্ডনে সংবাদ সম্মেলনের ভাষণ"
+                android:onClick="march7"
+                android:layout_marginBottom="10dp"
+                android:textColor="#ffffff"
+                />
+            <Button
+                android:id="@+id/vashion_interview"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_background"
+                android:text="সাংবাদিকের সাথে বঙ্গবন্ধুর সাক্ষাৎকার"
+                android:onClick="march7"
+                android:layout_marginBottom="10dp"
+                android:textColor="#ffffff"
+                />
+            <Button
+                android:id="@+id/vashion_bakshal"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_background"
+                android:text="বঙ্গবন্ধুর বাকশালের ভাষণ "
+                android:onClick="march7"
+                android:layout_marginBottom="10dp"
+                android:textColor="#ffffff"
+                />
+            <Button
+                android:id="@+id/vashion_osrowSomarpon"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_background"
+                android:text="মুক্তিযোদ্ধাদের অস্ত্র সামার্পনের ভাষণ"
+                android:onClick="march7"
+                android:layout_marginBottom="10dp"
+                android:textColor="#ffffff"
+                />
+            <Button
+                android:id="@+id/vashion_samorikAkademi"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_background"
+                android:text="সামরিক একাডেমির শিক্ষা সমাপনিতে বঙ্গবন্ধুর ভাষন"
+                android:onClick="march7"
+                android:layout_marginBottom="10dp"
+                android:textColor="#ffffff"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

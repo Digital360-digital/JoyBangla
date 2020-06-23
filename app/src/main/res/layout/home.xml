@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ViewFlipper
+                    android:id="@+id/silder"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp" />
+
+
+                <LinearLayout
+                    android:id="@+id/firstImg"
+                    android:layout_below="@+id/silder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2">
+
+                    <ImageView
+                        android:id="@+id/mujibImg"
+                        android:layout_width="0dp"
+                        android:layout_height="200dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/mujib" />
+
+                    <ImageView
+                        android:id="@+id/hasinaId"
+                        android:layout_width="0dp"
+                        android:layout_height="200dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/hasina" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/joyAndawyameligLayoutId"
+                    android:layout_below="@+id/firstImg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2">
+
+                    <ImageView
+                        android:id="@+id/joyId"
+                        android:layout_width="0dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/joy" />
+
+                    <ImageView
+                        android:id="@+id/awyameligId"
+                        android:layout_width="0dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/awyamelig" />
+
+
+                </LinearLayout>
+                <ImageView
+                    android:id="@+id/flagImgId"
+                    android:layout_below="@+id/joyAndawyameligLayoutId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bangladesh_flag"
+                    />
+                <LinearLayout
+                    android:layout_below="@id/flagImgId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/awyamelig2"/>
+                <TextView
+                   android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="তথ্য ও গবেষণা উপকমিটি , বাংলাদেশ আওয়ামী লীগ"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="5dp"
+                    android:textAlignment="center"/>
+
+
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

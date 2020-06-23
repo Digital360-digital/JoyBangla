@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="@drawable/sheikh_mujib_w">
+    <Button
+        android:id="@+id/mujib_jiboni_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_background"
+        android:text="@string/bongobondhu_jiboni"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"/>
+    <Button
+        android:id="@+id/mujib_osomapto_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_background"
+        android:text="@string/bongobondhu_osamapto"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"/>
+    <Button
+        android:id="@+id/mujib_museum_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_background"
+        android:text="@string/bongobondhu_jadughor"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"/>
+    <Button
+        android:id="@+id/mujib_letter_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_background"
+        android:text="@string/bongobondhu_cithi"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"/>
+    <Button
+        android:id="@+id/mujib_speech_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_background"
+        android:text="@string/bongobondhu_vashon"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"/>
+
+
+</LinearLayout>

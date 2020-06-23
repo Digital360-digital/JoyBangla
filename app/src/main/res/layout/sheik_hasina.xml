@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="@drawable/hasina_walpaper">
+    <Button
+        android:id="@+id/hasinaJiboniBtnId"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_background"
+        android:text="@string/shekh_hasina_jiboni"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"/>
+    <Button
+        android:id="@+id/hasinaVasonBtnId"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_background"
+        android:text="@string/shekh_hasina_vashon"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"/>
+    <Button
+        android:id="@+id/hasinaOrjonBtnId"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_background"
+        android:text="@string/shekh_hasina_antojatik"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

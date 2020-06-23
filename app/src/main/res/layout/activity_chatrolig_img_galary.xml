@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ChatroligImgGalary">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <Button
+            android:id="@+id/backId"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:background="@drawable/backb"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chatrolig_galary1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="প্রধানমন্ত্রী শেখ হাসিনার হাতে ফুল দিয়ে শুভেচ্ছা জানান ছাত্রলীগের ভারপ্রাপ্ত সভাপতি-সাধারণ সম্পাদকসহ শীর্ষনেতারা।"
+                android:textColor="#000000"
+                android:justificationMode="inter_word"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chatrolig_galary2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="ধানমন্ডিতে বঙ্গবন্ধু শেখ মুজিবুর রহমানের প্রতিকৃতিতে শ্রদ্ধা জানায় সংগঠনটির নেতাকর্মীরা।"
+                android:textColor="#000000"
+                android:justificationMode="inter_word"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chatrolig_galary4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="ঢাকা বিশ্ববিদ্যালয়ে ‘মুজিববর্ষ দ্বৈত ব্যাডমিন্টন টুর্নামেন্ট’ এর উদ্বোধন করতে ঢাকা বিশ্ববিদ্যালয়ে আসেন বাংলাদেশ ক্রিকেট দলের ওয়ানডে অধিনায়ক ও নড়াইল-২ আসনের সংসদ সদস্য মাশরাফি বিন ‍মুর্তজা।"
+                android:textColor="#000000"
+                android:justificationMode="inter_word"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chatrolig_galary5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="ইসলামী বিশ্ববিদ্যালয়ে (ইবি) শাখা ছাত্রলীগের  আয়োজনে মাদক বিরোধী র‍্যালী ও সমাবেশ করেছে শাখা ছাত্রলীগের নেতা কর্মীরা।"
+                android:textColor="#000000"
+                android:justificationMode="inter_word"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chatrolig_galary6" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="সংগঠনের ৭২তম প্রতিষ্ঠাবার্ষিকী উপলক্ষে আয়োজিত তিন দিনব্যাপী কর্মসূচির শেষ দিনে শিশুদের মধ্যে শিক্ষা উপকরণ বিতরণ করেছে বাংলাদেশ ছাত্রলীগ।"
+                android:textColor="#000000"
+                android:justificationMode="inter_word"
+                android:textSize="15sp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chatrolig_galary7" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="মুজিব বর্ষ ও ছাত্রলীগের প্রতিষ্ঠা বার্ষিক উপলক্ষে পাবনা ছাত্রলীগ’র আনন্দ মিছিল"
+                android:textColor="#000000"
+                android:justificationMode="inter_word"
+                android:textSize="15sp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chatrolig_galary8" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="ডেঙ্গুর প্রাদুর্ভাব থেকে সাধারণ শিক্ষার্থীদের সুরক্ষা দিতে ও ক্যাম্পাসকে ডেঙ্গু মুক্ত রাখার জন্য ইসলামী বিশ্ববিদ্যালয়ে (ইবি) তিন দিনব্যাপী মশা নিধন কর্মসূচি পালন করছে বিশ্ববিদ্যালয় শাখা ছাত্রলীগ।"
+                android:textColor="#000000"
+                android:justificationMode="inter_word"
+                android:textSize="15sp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chatrolig_galary9" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="গাজীপুরের শ্রীপুর ১লা মে বিশ্ব শ্রমিক দিবসে কর্মজীবিদের সাথে অন্য রকম ভালোবাসার দৃষ্টান্ত স্থাপন করলেন ছাত্রলীগ।"
+                android:textColor="#000000"
+                android:justificationMode="inter_word"
+                android:textSize="15sp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chatrolig_galary10" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="বাংলাদেশ ছাত্রলীগ এর গৌরব, ঐতিহ্য সংগ্রাম ও সাফল্যের ৭২ বছরর উদযাপন উপলক্ষ্যে বাগমারায় ভবানীগঞ্জ পৌরসভা ও বাসুপাড়া ইউনিয়নের দেউলা গ্রামের বাঁধে বসবাসকারী শীতার্ত বস্তিবাসীদের মধ্যে ছাত্রলীগের উদ্যোগে শীতবস্ত্র (কম্বল) বিতরন করা হয়েছে।"
+                android:textColor="#000000"
+                android:justificationMode="inter_word"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

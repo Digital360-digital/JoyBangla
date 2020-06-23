@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home"
+        android:title="@string/home"
+        />
+
+    <item android:id="@+id/bongobondhu"
+        android:title="@string/bongobondhu"
+        />
+
+    <item android:id="@+id/hasina"
+        android:title="@string/shekh_hasina"
+        />
+
+    <item android:id="@+id/joy"
+        android:title="@string/joy"
+        />
+
+    <item android:id="@+id/awyamelig"
+        android:title="@string/awyamelig"
+        />
+
+    <item android:id="@+id/chatrolig"
+        android:title="@string/chatrolig"
+        />
+    <item
+        android:title=""
+        />
+
+    <item
+        android:title=""
+        />
+    <group android:checkableBehavior="none" >
+        <item android:title="তথ্য ও গবেষণা উপকমিটি, বাংলাদেশ আওয়ামী লীগ"/>
+    </group>
+
+</menu>
+

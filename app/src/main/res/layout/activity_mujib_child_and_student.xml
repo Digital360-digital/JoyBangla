@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MujibChildAndStudent">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <Button
+            android:id="@+id/backId"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:background="@drawable/backb"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/imgae"
+        android:layout_width="170dp"
+        android:layout_height="280dp"
+        android:layout_gravity="center"
+        android:background="@drawable/mujib_childhood"
+        android:transitionName="@string/bongobondhu_child_img_name"
+        android:layout_marginTop="-28dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/firstText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8dp"
+                android:text="@string/bongobondhu_childhood"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:id="@+id/secondText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8dp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:justificationMode="inter_word"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
